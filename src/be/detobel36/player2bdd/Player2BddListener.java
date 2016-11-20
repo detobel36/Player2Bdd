@@ -39,10 +39,10 @@ public class Player2BddListener implements Listener {
         
         String tableName = plugin.getConfig().getString("SQL.table_name");
         
-        String requete = ("UPDATE " + tableName + " SET "
-                + "pseudo = '" + con.getName() + "', "
-                + "ip = '" + ip + "' "
-                + "WHERE uuid = '" + uuid + " '");
+        String requete = ("REPLACE INTO " + tableName + "(uuid, pseudo, ip) VALUES("
+                + "'" + uuid + "', "
+                + "'" + con.getName() + "', "
+                + "'" + ip + "')");
         SQLUtilities.getUtilities().execUpdate(requete);
     }
     
