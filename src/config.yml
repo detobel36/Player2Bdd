@@ -1,0 +1,7 @@
+SQL:
+    hostname: 127.0.0.1
+    port: 3306
+    database_name: bdd_name
+    username: username
+    password: password
+    table_name: player
