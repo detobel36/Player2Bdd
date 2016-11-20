@@ -43,6 +43,12 @@ Tous les autres fichiers sont sous licence GPL.  Ce qui signifie concrètement
 
 Source: [Wikipedia](https://fr.wikipedia.org/wiki/Licence_publique_g%C3%A9n%C3%A9rale_GNU) (bah oui j'avais pas mieux :dizzy_face:)
 
+## Télécharger
+Le téléchargement du plugin se fait sur la page [releases](https://github.com/detobel36/Player2Bdd/releases/)
+
+## En cas de problème
+En cas de problème n'hésitez pas à ouvrir une [issue](https://github.com/detobel36/Player2Bdd/issues/new).  Je suis également disponible 
+par mail ou sur différent forum (minecraft.fr ou phoenixr.fr).
 
 ## Contact
 Email: detobel36(at)hotmail(dot)fr
