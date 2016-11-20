@@ -40,7 +40,7 @@ public class SQLUtilities {
                     String table = "CREATE TABLE IF NOT EXISTS `" + tableName + "` ("
                             + "`uuid` varchar(255) NOT NULL, " // uuid
                             + "`pseudo` varchar(255) NOT NULL, " // pseudo
-                            + "`ip` varchar(255) NOT NULL DEFAULT '0.0.0' " // ip
+                            + "`ip` varchar(255) NOT NULL DEFAULT '0.0.0', " // ip
                             + "PRIMARY KEY (`uuid`))";
                     st.executeUpdate(table);
                     connected = true;
